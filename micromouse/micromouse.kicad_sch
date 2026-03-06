@@ -2358,6 +2358,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "blue-led:LTST-C194TBKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C194TBKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC1608X35N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Lite-On 475 nm Blue LED, 0603 Clear SMD package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C194TBKT"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C194TBKT?qs=xIkB7y1OToppqaeT0gFDew%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C194TBKT"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C194TBKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ir-emitter:INL-5AMIR15"
 			(pin_names
 				(offset 0.254)
@@ -4004,7 +4244,7 @@
 		(uuid 57201a25-9713-4a2c-8cc1-2e16cc65616a)
 	)
 	(rectangle
-		(start 13.97 102.87)
+		(start 8.89 102.87)
 		(end 63.5 147.32)
 		(stroke
 			(width 0)
@@ -4094,6 +4334,12 @@
 		(uuid "0d529522-5e73-4f97-8ec7-06c82d6a68d7")
 	)
 	(junction
+		(at 57.15 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c893b3-ec95-4c83-9a9c-53ec3a50ac67")
+	)
+	(junction
 		(at 149.86 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4146,6 +4392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ef2604-e6a3-47f7-9dcd-a4da6354b08c")
+	)
+	(junction
+		(at 140.97 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78fc2a5e-c3c2-4000-984d-fcd1c5f2924a")
 	)
 	(junction
 		(at 165.1 38.1)
@@ -4212,12 +4464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d406f4f7-fb17-4f8c-b122-c9fc4634b2d6")
-	)
-	(junction
-		(at 140.97 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da995053-7152-42fa-b050-623386e54a49")
 	)
 	(junction
 		(at 149.86 83.82)
@@ -4290,16 +4536,6 @@
 			(type default)
 		)
 		(uuid "0596c550-19ee-414e-9fa2-8d0512a6ae91")
-	)
-	(wire
-		(pts
-			(xy 140.97 222.25) (xy 140.97 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08947314-3c24-4b9a-abc8-d8d1704d7ee1")
 	)
 	(wire
 		(pts
@@ -4473,6 +4709,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 179.07) (xy 57.15 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29edcef3-2bf5-4835-a6ca-e5b5b4e44277")
+	)
+	(wire
+		(pts
 			(xy 21.59 128.27) (xy 29.21 128.27)
 		)
 		(stroke
@@ -4543,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 151.13 60.96)
+			(xy 146.05 60.96) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4683,13 +4929,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 208.28) (xy 53.34 208.28)
+			(xy 60.96 208.28) (xy 57.15 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6006e5b6-b761-4834-9674-c40fbc6f2c1f")
+	)
+	(wire
+		(pts
+			(xy 140.97 209.55) (xy 140.97 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c7e91c-991d-4789-93b4-c8fe1e2a6c50")
 	)
 	(wire
 		(pts
@@ -4730,6 +4986,16 @@
 			(type default)
 		)
 		(uuid "6b4fcbc2-55bb-4858-9e20-c4b1b307772f")
+	)
+	(wire
+		(pts
+			(xy 57.15 196.85) (xy 57.15 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb12a05-32ce-4cce-97d6-b50b41b5108d")
 	)
 	(wire
 		(pts
@@ -4993,7 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 204.47) (xy 140.97 210.82)
+			(xy 140.97 204.47) (xy 140.97 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5013,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 205.74) (xy 107.95 213.36)
+			(xy 107.95 204.47) (xy 107.95 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5183,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 210.82) (xy 146.05 210.82)
+			(xy 140.97 209.55) (xy 152.4 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5283,16 +5549,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 210.82) (xy 140.97 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da74d8c5-97e3-4272-a9d2-414419512309")
-	)
-	(wire
-		(pts
 			(xy 198.12 148.59) (xy 207.01 148.59)
 		)
 		(stroke
@@ -5373,6 +5629,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 240.03) (xy 140.97 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46d2f5c-62f4-4427-9265-c4b4cf6d72fd")
+	)
+	(wire
+		(pts
 			(xy 243.84 135.89) (xy 243.84 137.16)
 		)
 		(stroke
@@ -5413,6 +5679,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 208.28) (xy 50.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef171ea2-20dd-486e-b369-c67039d84f06")
+	)
+	(wire
+		(pts
 			(xy 165.1 27.94) (xy 179.07 27.94)
 		)
 		(stroke
@@ -5450,6 +5726,16 @@
 			(type default)
 		)
 		(uuid "fa342789-4283-4c0b-aac6-278d035c4f0d")
+	)
+	(wire
+		(pts
+			(xy 57.15 205.74) (xy 57.15 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9447de-fc7f-46c8-a514-a7bb1322aedc")
 	)
 	(wire
 		(pts
@@ -5571,7 +5857,7 @@
 	)
 	(global_label "MR1"
 		(shape input)
-		(at 151.13 60.96 0)
+		(at 160.02 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5581,7 +5867,7 @@
 		)
 		(uuid "1db45ffa-1f9e-49ae-9ae3-dd389c06c3c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.0461 60.96 0)
+			(at 166.9361 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +6033,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 140.97 231.14 270)
+		(at 140.97 240.03 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5757,7 +6043,7 @@
 		)
 		(uuid "55004892-a5a5-4ef7-bf6e-848171cbd46e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 237.9957 90)
+			(at 140.97 246.8857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +6055,7 @@
 	)
 	(global_label "PC9"
 		(shape input)
-		(at 53.34 208.28 180)
+		(at 50.8 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5779,7 +6065,7 @@
 		)
 		(uuid "5f45c13f-a1a1-47b3-a8c1-bab6a0188b77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 208.28 0)
+			(at 44.0653 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +6121,7 @@
 	)
 	(global_label "PC5"
 		(shape input)
-		(at 146.05 210.82 0)
+		(at 152.4 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5845,7 +6131,7 @@
 		)
 		(uuid "9d614ab2-b54b-4e34-804e-05f15990d9c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7847 210.82 0)
+			(at 159.1347 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,6 +6181,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 57.15 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9d0740b-f3ea-47d5-b12f-3454f0cebef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 172.2143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6371,6 +6679,128 @@
 		)
 	)
 	(symbol
+		(lib_id "blue-led:LTST-C194TBKT")
+		(at 140.97 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2356315e-8b44-4052-a447-72026518cd4b")
+		(property "Reference" "LED3"
+			(at 144.78 228.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C194TBKT"
+			(at 144.78 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEDC1608X35N"
+			(at 234.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF"
+			(at 334.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lite-On 475 nm Blue LED, 0603 Clear SMD package"
+			(at 140.97 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35"
+			(at 534.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C194TBKT"
+			(at 634.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C194TBKT?qs=xIkB7y1OToppqaeT0gFDew%3D%3D"
+			(at 734.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 834.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C194TBKT"
+			(at 934.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d2e3b06-c63a-4c39-99c9-e1df5431c6c8")
+		)
+		(pin "1"
+			(uuid "dab6d0bb-3134-45a8-9f72-48e5bf96ceee")
+		)
+		(instances
+			(project "micromouse"
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 191.77 35.56 270)
 		(unit 1)
@@ -6432,6 +6862,75 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 57.15 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d395870-e476-40c3-b029-f305c4113a68")
+		(property "Reference" "R7"
+			(at 49.276 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 ohm"
+			(at 46.99 202.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 56.134 201.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 57.15 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02ff146d-2b82-464e-a782-64088e30f15f")
+		)
+		(pin "1"
+			(uuid "b4c1f811-ca5b-4391-98d4-50ebcb376385")
+		)
+		(instances
+			(project "micromouse"
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8755,6 +9254,128 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blue-led:LTST-C194TBKT")
+		(at 57.15 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb4b8b8-1e86-4294-b2f5-210ac6799fda")
+		(property "Reference" "LED2"
+			(at 63.5 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C194TBKT"
+			(at 63.5 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEDC1608X35N"
+			(at -36.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF"
+			(at -136.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lite-On 475 nm Blue LED, 0603 Clear SMD package"
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35"
+			(at -336.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C194TBKT"
+			(at -436.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C194TBKT?qs=xIkB7y1OToppqaeT0gFDew%3D%3D"
+			(at -536.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -636.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C194TBKT"
+			(at -736.5 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18950819-7e3e-433b-87de-a3ffa6fd1fe5")
+		)
+		(pin "1"
+			(uuid "9849661c-457a-468b-b6db-793886bbae73")
+		)
+		(instances
+			(project "micromouse"
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
