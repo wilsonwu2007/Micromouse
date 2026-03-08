@@ -617,6 +617,10 @@
     [
       "0e2a7964-9a2d-4139-b18d-934c264bbaa5",
       "mcu"
+    ],
+    [
+      "3c476a9c-f3c4-480b-a0ea-8f50cde6e937",
+      "ir-emitters-receivers"
     ]
   ],
   "text_variables": {}
