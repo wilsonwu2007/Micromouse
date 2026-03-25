@@ -1507,45 +1507,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nchannelmosfet-mm:BS170"
+		(symbol "new_n_channel_mosfet:2N7002LT1G"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 11.43 1.905 0)
+			(property "Reference" "Q"
+				(at -8.89 2.54 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "BS170"
-				(at 11.43 -2.54 0)
+			(property "Value" "2N7002LT1G"
+				(at -8.89 -7.62 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TO_SA06_ONS"
+			(property "Footprint" "2N7002LT1G:SOT95P240X111-3N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "BS170"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -1559,144 +1560,51 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "PARTREV" "4"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "BS170"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO_SA06_ONS"
+			(property "MANUFACTURER" "ON Semiconductor"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "BS170_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.11 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002LT1G_0_0"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 4.445 0)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.905) (xy 6.985 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.905) (xy 6.985 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0.635) (xy 5.08 0) (xy 6.35 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 0)
-					(radius 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1707,10 +1615,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 2.54) (xy 8.255 2.54)
+						(xy 0.762 3.175) (xy 0.762 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1719,21 +1627,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 1.905) (xy 6.985 2.54)
+						(xy 0.762 2.54) (xy 0.762 1.905)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -1.905)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1742,10 +1639,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -2.54) (xy 6.985 0)
+						(xy 0.762 2.54) (xy 3.81 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1754,32 +1651,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -2.54) (xy 8.255 -2.54)
+						(xy 0.762 0.762) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1788,10 +1663,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 0.635) (xy 8.255 2.54)
+						(xy 0.762 0) (xy 0.762 -0.762)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1800,10 +1675,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 -2.54) (xy 8.255 -0.635)
+						(xy 0.762 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1812,10 +1687,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 0.635) (xy 7.62 0.635)
+						(xy 0.762 -1.905) (xy 0.762 -3.175)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1824,66 +1699,196 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -0.635) (xy 7.62 -0.635) (xy 8.255 0.635)
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "G"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 5.08 270)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2220,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160ae559-556f-4c88-812b-f14a46697a6a")
+	)
+	(wire
+		(pts
 			(xy 232.41 152.4) (xy 226.06 152.4)
 		)
 		(stroke
@@ -2300,16 +2315,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 71.12) (xy 54.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231e2846-30f6-4d6e-9361-d8468ffcbc13")
-	)
-	(wire
-		(pts
 			(xy 187.96 168.91) (xy 191.77 168.91)
 		)
 		(stroke
@@ -2360,6 +2365,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 68.58) (xy 49.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29778d36-8c09-48a0-a8ed-68196847d4c7")
+	)
+	(wire
+		(pts
 			(xy 172.72 66.04) (xy 166.37 66.04)
 		)
 		(stroke
@@ -2397,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "329a7298-68dc-4487-97a9-535a67b0421b")
+	)
+	(wire
+		(pts
+			(xy 46.99 167.64) (xy 46.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33845325-3bdc-45bf-8513-00f400b2dadb")
 	)
 	(wire
 		(pts
@@ -2610,6 +2635,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 168.91) (xy 191.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a2ff81-8136-4a54-bde4-fd95ee88c9f1")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f30121-c58e-4e90-a5b0-80d1c902624a")
+	)
+	(wire
+		(pts
 			(xy 40.64 167.64) (xy 40.64 179.07)
 		)
 		(stroke
@@ -2647,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "5f50c1d3-5017-4fa5-88b4-e1d2c3b7b6f6")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.12) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9beece-31f9-4ade-8f7d-007dbd4d1dcd")
 	)
 	(wire
 		(pts
@@ -2760,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 172.72) (xy 52.07 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6723ee81-4bf7-4e27-8e8a-643c7c43eb90")
-	)
-	(wire
-		(pts
 			(xy 259.08 165.1) (xy 259.08 170.18)
 		)
 		(stroke
@@ -2840,16 +2885,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 173.99) (xy 199.39 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791ed0e8-1601-460b-9c34-2c8c89d87251")
-	)
-	(wire
-		(pts
 			(xy 185.42 90.17) (xy 196.85 90.17)
 		)
 		(stroke
@@ -2897,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "80bb9152-0e72-4667-9401-edab57579756")
+	)
+	(wire
+		(pts
+			(xy 191.77 171.45) (xy 194.31 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dc8500-6a98-47c7-b419-67ac9af2e36a")
 	)
 	(wire
 		(pts
@@ -2980,6 +3025,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 172.72) (xy 52.07 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9a6d78-0b24-45a6-9628-f6e218f375b3")
+	)
+	(wire
+		(pts
 			(xy 175.26 139.7) (xy 175.26 142.24)
 		)
 		(stroke
@@ -3027,6 +3082,26 @@
 			(type default)
 		)
 		(uuid "a497267b-e8ee-4578-9b0a-5e2b9887390f")
+	)
+	(wire
+		(pts
+			(xy 46.99 66.04) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63e0ca0-1a1a-4645-bc2a-e8069a006c5e")
+	)
+	(wire
+		(pts
+			(xy 199.39 173.99) (xy 199.39 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8242117-2666-4ad9-9400-5e71836da55e")
 	)
 	(wire
 		(pts
@@ -3140,16 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 71.12) (xy 196.85 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c7a47c-39b4-43cb-a637-c1cedf9d38a6")
-	)
-	(wire
-		(pts
 			(xy 223.52 49.53) (xy 223.52 54.61)
 		)
 		(stroke
@@ -3160,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.64) (xy 44.45 167.64)
+			(xy 40.64 167.64) (xy 46.99 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3357,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "f1739fc2-c250-4647-83a0-3b4d86a8c129")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 54.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2084c7d-8fe2-479b-8f76-889164711d7a")
 	)
 	(wire
 		(pts
@@ -3640,6 +3715,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PC0"
+		(shape input)
+		(at 21.59 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34da4a5e-c324-4cca-806c-3e6598bcd34f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.8553 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3996,7 +4093,7 @@
 			)
 		)
 	)
-	(global_label "PA5"
+	(global_label "PC6"
 		(shape input)
 		(at 123.19 168.91 0)
 		(fields_autoplaced yes)
@@ -4008,7 +4105,7 @@
 		)
 		(uuid "d95ff63d-ce8a-449b-a45a-680d97e13e58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7433 168.91 0)
+			(at 129.9247 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,28 +4128,6 @@
 		(uuid "dc526743-7445-4802-804d-b9837ecff711")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 104.6457 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA6"
-		(shape input)
-		(at 21.59 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed69d17c-cda3-4c6a-ba5d-0eb2fc1c5555")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.0367 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,55 +4230,54 @@
 		)
 	)
 	(symbol
-		(lib_id "nchannelmosfet-mm:BS170")
-		(at 46.99 66.04 0)
+		(lib_id "new_n_channel_mosfet:2N7002LT1G")
+		(at 49.53 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e8325ec-b2d6-4d54-b81f-500e1393a2da")
-		(property "Reference" "U4"
-			(at 58.42 64.7699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 58.42 67.3099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bs170:TO_SA06_ONS"
-			(at 46.99 66.04 0)
+		(uuid "0f86a9ca-2292-4400-b75a-56e47aef9ace")
+		(property "Reference" "Q8"
+			(at 55.88 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002LT1G"
+			(at 55.88 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "new_n_channel_mosfets:SOT95P240X111-3N"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BS170"
-			(at 46.99 66.04 0)
+		(property "Datasheet" ""
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 46.99 66.04 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,19 +4285,59 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7aa02a19-923e-4c04-969a-f7a6533f1ab0")
+		(property "PARTREV" "4"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ON Semiconductor"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.11 mm"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "746b464f-fdf5-470d-81cc-f726137368d0")
+			(uuid "e107c76b-25e0-4c86-92b5-5d2fb8376311")
+		)
+		(pin "3"
+			(uuid "d250e3f8-6193-44f1-97a1-4815018ef159")
 		)
 		(pin "2"
-			(uuid "01d1aab6-208d-4085-baae-986571b75e75")
+			(uuid "fcec1dea-1bdc-4861-816d-a7a9815c8abb")
 		)
 		(instances
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
-					(reference "U4")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -4653,81 +4767,6 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nchannelmosfet-mm:BS170")
-		(at 191.77 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ff81c3c-fe68-4344-be68-51be051d005e")
-		(property "Reference" "U7"
-			(at 203.2 167.6399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 203.2 170.1799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bs170:TO_SA06_ONS"
-			(at 191.77 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BS170"
-			(at 191.77 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "592f0159-6a07-43c8-bdc5-472fd93742b8")
-		)
-		(pin "1"
-			(uuid "0e0e9300-17b8-43fa-92b6-58d25f620d51")
-		)
-		(pin "2"
-			(uuid "363e6d7d-7a1f-4f07-a017-8f6fa4afbdd4")
-		)
-		(instances
-			(project "micromouse"
-				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5274,6 +5313,234 @@
 		)
 	)
 	(symbol
+		(lib_id "new_n_channel_mosfet:2N7002LT1G")
+		(at 52.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4157e287-19fc-4313-976b-388abb929407")
+		(property "Reference" "Q5"
+			(at 58.42 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002LT1G"
+			(at 58.42 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "new_n_channel_mosfets:SOT95P240X111-3N"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ON Semiconductor"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.11 mm"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c715884-6f5f-4e8f-a1d4-86d73a6b2c07")
+		)
+		(pin "3"
+			(uuid "ebfb5e1e-18ab-4a44-972a-52c0fbfffce2")
+		)
+		(pin "2"
+			(uuid "081831db-9f72-486b-ac04-5e37a3eb3bf3")
+		)
+		(instances
+			(project ""
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "new_n_channel_mosfet:2N7002LT1G")
+		(at 196.85 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "474544a6-8bce-495e-a12f-72304cad55f9")
+		(property "Reference" "Q7"
+			(at 203.2 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002LT1G"
+			(at 203.2 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "new_n_channel_mosfets:SOT95P240X111-3N"
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4"
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ON Semiconductor"
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.11 mm"
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 196.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bfd4fa8-5ccb-4474-a47b-0f5fb7159555")
+		)
+		(pin "3"
+			(uuid "28f25503-9075-48fc-aa7f-4297c1f1bd9c")
+		)
+		(pin "2"
+			(uuid "9d9491fd-06ab-4b23-bef9-aa4d64c98572")
+		)
+		(instances
+			(project "micromouse"
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ir-emitter:INL-5AMIR15")
 		(at 54.61 48.26 270)
 		(unit 1)
@@ -5551,81 +5818,6 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nchannelmosfet-mm:BS170")
-		(at 189.23 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c6e82ec-c5f6-44a2-be6d-32c32052904a")
-		(property "Reference" "U1"
-			(at 200.66 64.7699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 200.66 67.3099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bs170:TO_SA06_ONS"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BS170"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f91d3ccf-f682-4470-81de-174c6be7974e")
-		)
-		(pin "1"
-			(uuid "71714922-839b-42ba-8023-e88ad96967b5")
-		)
-		(pin "2"
-			(uuid "d1b322b8-978d-4b4d-aab6-dd2bac4e6540")
-		)
-		(instances
-			(project "micromouse"
-				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5935,81 +6127,6 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nchannelmosfet-mm:BS170")
-		(at 44.45 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91908698-3100-47fe-ada1-6f2b0e67d5a6")
-		(property "Reference" "U6"
-			(at 55.88 166.3699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 55.88 168.9099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bs170:TO_SA06_ONS"
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BS170"
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "799e1389-db55-4aeb-8c18-236325aed878")
-		)
-		(pin "1"
-			(uuid "fcbac290-2361-4e1d-9982-51112f032eba")
-		)
-		(pin "2"
-			(uuid "115a3b6c-2d3b-46af-b790-c7b71111ad43")
-		)
-		(instances
-			(project "micromouse"
-				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6845,6 +6962,120 @@
 			(project "micromouse"
 				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "new_n_channel_mosfet:2N7002LT1G")
+		(at 194.31 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd69036d-36ac-425e-98f0-bc4a3516b967")
+		(property "Reference" "Q6"
+			(at 200.66 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002LT1G"
+			(at 200.66 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "new_n_channel_mosfets:SOT95P240X111-3N"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ON Semiconductor"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.11 mm"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9e2ae8c-84ab-4097-84c8-a5c251b50f33")
+		)
+		(pin "3"
+			(uuid "cab42464-8510-433a-95c4-9279d0146a9b")
+		)
+		(pin "2"
+			(uuid "c5e8c575-61df-4a03-a9f4-79a731103cc4")
+		)
+		(instances
+			(project "micromouse"
+				(path "/6f21d099-3493-45a5-8fb2-59b651d74bbe/3c476a9c-f3c4-480b-a0ea-8f50cde6e937"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
