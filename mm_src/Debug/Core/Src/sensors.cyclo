@@ -1,0 +1,5 @@
+../Core/Src/sensors.c:17:10:IR_Read	1
+../Core/Src/sensors.c:22:9:IR_WallDetected	2
+../Core/Src/sensors.c:29:9:IR_BotLeft_WallDetected	1
+../Core/Src/sensors.c:35:6:IR_EmittersOn	1
+../Core/Src/sensors.c:41:6:IR_EmittersOff	1

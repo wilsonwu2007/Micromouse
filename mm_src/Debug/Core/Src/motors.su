@@ -1,0 +1,6 @@
+../Core/Src/motors.c:18:6:Motor_Init	8	static
+../Core/Src/motors.c:29:6:Motor_Set	16	static
+../Core/Src/motors.c:60:6:Motor_Stop	16	static
+../Core/Src/motors.c:64:6:Motor_StopAll	8	static
+../Core/Src/motors.c:70:9:Encoder_Read	16	static
+../Core/Src/motors.c:78:7:Encoder_GetSpeed	40	static
